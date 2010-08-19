@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionDemo", "DependencyInjectionDemo\DependencyInjectionDemo.csproj", "{0EC1A2BC-BA3C-4D66-9195-9D1F71750C90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionDemo.Infrastructure", "DependencyInjectionDemo.Infrastructure\DependencyInjectionDemo.Infrastructure.csproj", "{FE514E7E-59F9-4372-8346-FF966983C25A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{BE393117-335B-4DE1-AE6E-28A9D95FCDD8}"
+	ProjectSection(SolutionItems) = preProject
+		lib\StructureMap.dll = lib\StructureMap.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EC1A2BC-BA3C-4D66-9195-9D1F71750C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC1A2BC-BA3C-4D66-9195-9D1F71750C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC1A2BC-BA3C-4D66-9195-9D1F71750C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC1A2BC-BA3C-4D66-9195-9D1F71750C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE514E7E-59F9-4372-8346-FF966983C25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE514E7E-59F9-4372-8346-FF966983C25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE514E7E-59F9-4372-8346-FF966983C25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE514E7E-59F9-4372-8346-FF966983C25A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
